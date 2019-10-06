@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>your expenses</title>
+    <link rel="stylesheet" href="showexpense.css">
+</head>
+
+<body>
+    <div id="head">
+        <h1>Your expenses</h1>
+<% for (i = client.length - 1; i >= 0; i--) { %>
+    <div id="days">
+    <div id="spent">
+<h2>Spent:<strong><%=client[i].spent%></strong></h1>
+    </div>
+    <div id="occasion">
+<h2 id="content">Occasion:<%=client[i].occasion%></p>
+    </div>
+    <div id="date">
+     <h2>Date:<%=client[i].date%></h2>
+    </div>
+    </div>
+<%}%>
+</div>
+
+
+
+    </body>
+    </html>

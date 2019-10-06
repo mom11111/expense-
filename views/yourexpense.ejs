@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+      <link rel="stylesheet" href="yourexpense.css">
+  </head>
+<body>
+
+<h1>Add Expenses</h1>
+
+  <form method="POST" action='/addexpenses' id="form">
+    <input type="text" name="key" placeholder="Not fill" id="key"><br>
+    <input type="text" name="occasion" placeholder="event" id="occasion"><br>
+    <input type="text" name="spent" placeholder="total expense" id="spent"><br>
+    <input type="Date"  name="date" placeholder="date" id="date"><br>
+    <button value="submit" name="button" id="button">submit</button> 
+    
+  </form>
+   
+  <form action="/getyourexpense" method="GET" id="form">
+    <button name="button2" id="button">see expenses</button>
+  </form>
+
+</body>
+</html>

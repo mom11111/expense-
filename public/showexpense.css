@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: indianred;
+}
+#head{
+    background-color:greenyellow;
+    width:70%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#days{
+    background-color: white;
+    width:80%;
+    height:170px;
+    margin: auto;
+    margin-top:20px;
+    text-align:center;
+    border:2px solid red;
+}
