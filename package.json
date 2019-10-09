@@ -1,0 +1,31 @@
+{
+  "name": "checktracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ejs": "^2.7.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.3",
+    "nexmo": "^2.5.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mom11111/expense-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mom11111/expense-/issues"
+  },
+  "homepage": "https://github.com/mom11111/expense-#readme"
+}
