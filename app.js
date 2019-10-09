@@ -17,14 +17,20 @@ app.set('view engine','ejs');
 app.use(express.static(path.join(__dirname,'public')));
 
 
+const uri = "mongodb+srv://nishant:sunnykumar@cluster0-ffjng.mongodb.net/Cluster0?retryWrites=true&w=majority";
 
+mongoose.connect(uri,{useNewUrlParser: true }).then(res=>{
+     console.log("connected");
+ }).catch((error) => { 
+     console.log(error); 
+    });
 
-mongoose.connect('mongodb://localhost:27017/Expense',{useNewUrlParser:true},(err)=>{
+/*mongoose.connect('mongodb://localhost:27017/Expense',{useNewUrlParser:true},(err)=>{
     if(!err)
         console.log('connection established');
     else
         console.log("there is error");
-});
+});*/
 
 app.get('/',(req,res)=>{
     res.render('register');
