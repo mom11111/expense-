@@ -17,7 +17,7 @@ app.set('view engine','ejs');
 app.use(express.static(path.join(__dirname,'public')));
 
 
-const uri = "mongodb+srv://nishant:sunnykumar@cluster0-ffjng.mongodb.net/Cluster0?retryWrites=true&w=majority";
+const uri = "mongodb+srv://nishant:<your cluster password>@cluster0-ffjng.mongodb.net/Cluster0?retryWrites=true&w=majority";
 
 mongoose.connect(uri,{useNewUrlParser: true }).then(res=>{
      console.log("connected");
